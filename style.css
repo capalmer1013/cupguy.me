@@ -72,14 +72,27 @@ ul li{
     font-size:1.25em;
 }
 
+/* header animation */
+
+@keyframes breathe{
+    from {color: #3a2584;}
+    to {color: #9e2bac;}
+}
 #header{
+    margin:0;
     font-family: headerFont;
-    /*color:#3a2584;*/
-    color:#9e2bac;
+    color: #3a2584;
     text-shadow: 3px 3px 5px #3a2584;
-    font-size:4em;
+    font-size:5em;
     font-weight:bold;
     text-align: center;
+
+    animation-name:breathe;
+    animation-delay: 1s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    animation-duration: 7s;
+    animation-direction: alternate;
 }
 
 #footer{
