@@ -63,6 +63,11 @@ ul li{
     border-radius: 50px;
 }
 
+#logo{
+    height: 43px;
+    width: auto;
+    border-radius: 100px;
+}
 #menu{
     font-size:1.25em;
 }
@@ -77,3 +82,6 @@ ul li{
     text-align: center;
 }
 
+#footer{
+    text-align: center;
+}
