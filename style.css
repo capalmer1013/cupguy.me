@@ -1,0 +1,65 @@
+@font-face {
+    font-family: headerFont;
+    src: url(streamster.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body {
+    padding: 25em;
+    padding-top: 2em;
+    background-image: url("background.jpg");
+
+    /* Create the parallax scrolling effect */
+    height: 100%; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media only screen and (max-device-width: 1024px) {
+    body {
+        background-attachment: scroll;
+    }
+}
+
+ul {
+    list-style-type: none;
+    /*border-style:solid;*/
+    margin: 0;
+    padding: 0;
+
+}
+ul li{
+    /*border-style:solid;*/
+    display: inline;
+    margin: 0;
+}
+
+
+.container {
+    padding: 4em;
+    padding-top:1em;
+    background-color: white;
+    border-radius: 50px;
+}
+
+#menu{
+    font-size:1.25em;
+}
+
+#header{
+    font-family: headerFont;
+    /*color:#3a2584;*/
+    color:#9e2bac;
+    text-shadow: 3px 3px 5px #3a2584;
+    font-size:4em;
+    font-weight:bold;
+    text-align: center;
+}
+
