@@ -80,18 +80,18 @@ ul li{
 }
 #header{
     margin:0;
+    -webkit-text-stroke: .01em #3a2584;
     font-family: headerFont;
     color: #3a2584;
-    text-shadow: 3px 3px 5px #3a2584;
-    font-size:5em;
+    /* text-shadow: 3px 3px 5px #3a2584; */
+    font-size: 6em;
     font-weight:bold;
     text-align: center;
-
     animation-name:breathe;
     animation-delay: 1s;
     animation-timing-function: ease;
     animation-iteration-count: infinite;
-    animation-duration: 7s;
+    animation-duration: 4s;
     animation-direction: alternate;
 }
 
