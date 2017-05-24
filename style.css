@@ -37,12 +37,14 @@ ul li{
     /*border-style:solid;*/
     display: inline;
     margin: 0;
+    padding-bottom: .5em;
 }
 
 #resume ul li{
     display: block;
     
 }
+
 #resume ul li:before{
     font-family: 'FontAwesome';
     content: '\f054';
@@ -57,7 +59,7 @@ ul li{
     text-align: center;
     /*filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='background.jpg', sizingMethod='scale');*/
 
-    height: 500px;
+    height: 700px;
     width: 100%;
     margin-bottom: 3em;
     display: table;
@@ -127,6 +129,7 @@ h2{
     text-shadow: -10px 0 rgba(0, 255, 255, 0.4), 10px 0 rgba(255, 0, 255, 0.4);
 }
 h3{
+    margin-top:0.5em;
     font-family:headerFont;
     font-size:2em;
 }
@@ -136,5 +139,6 @@ h4{
 
 p{
     color:#333;
-    margin-bottom: 1.5em;
+    margin-bottom: 0.5em;
+    margin-top:1.0em;
 }
