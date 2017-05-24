@@ -39,8 +39,15 @@ ul li{
     margin: 0;
 }
 
-
-
+#resume ul li{
+    display: block;
+    
+}
+#resume ul li:before{
+    font-family: 'FontAwesome';
+    content: '\f054';
+    margin:0 5px 0 -15px;
+}
 .banner {
     background: transparent url("background.jpg") 0 0 no-repeat fixed;
     background-attachment: fixed;
@@ -99,4 +106,35 @@ ul li{
     text-align: center;
 }
 
+#content{
+    margin: 0 auto;
+    padding-top:100px;
+    max-width: 980px;
+}
+#innerContent{
+    background:#eee; 
+    border-radius: 100px;
+    margin:0 auto;
+    padding:2em;
+}
+h2{
+    font-family: headerFont;
+    color: #3a2584;
+    font-size:4em;
+    font-weight:bold;
+    text-shadow: -3px 3px 3px #3a2584;
+    -webkit-text-stroke: 1px rgba(0, 0, 0, 0.2);
+    text-shadow: -10px 0 rgba(0, 255, 255, 0.4), 10px 0 rgba(255, 0, 255, 0.4);
+}
+h3{
+    font-family:headerFont;
+    font-size:2em;
+}
+h4{
 
+}
+
+p{
+    color:#333;
+    margin-bottom: 1.5em;
+}

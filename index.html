@@ -25,13 +25,16 @@
 <body>
 <div class="pure-menu pure-menu-horizontal menu" id="menu">
 <!--<a href="#" class="pure-menu-heading"><img src="cup-small.png" id="logo"></a>-->
-<!--
+
 <ul class="pure-menu-list">
-    <li class="pure-menu-item"><a href="#" class="pure-menu-link">About</a></li>
+    <li class="pure-menu-item"><a href="#about" class="pure-menu-link">About</a></li>
+    <li class="pure-menu-item"><a href="#resume" class="pure-menu-link">Resume</a></li>
+    <!--
     <li class="pure-menu-item"><a href="#" class="pure-menu-link">Portfolio</a></li>
     <li class="pure-menu-item"><a href="blog/_site/index.html" class="pure-menu-link">Blog</a></li>
+    -->
 </ul>
--->
+
 </div>
 
 <div class="banner">
@@ -42,10 +45,109 @@
 
     
 <div id="content">
-    <div class="pure-g">
-        <div class="pure-u-1 pure-u-md-1-3">  </div>
-        <div class="pure-u-1 pure-u-md-1-3">  </div>
-        <div class="pure-u-1 pure-u-md-1-3">  </div>
+    <div class="pure-g" id="innerContent">
+        <div class="pure-u-1 pure-u-md-1" id="about">
+            <h2>About Me</h2>
+            <p>
+            Hi, My name is Chris Palmer, I'm a Software Engineer at a robotics startup in Pittsburgh, 
+            freelance web and software developer, and recovering musician.
+            </p>
+            <p>
+            I'm always very interested in the interactions that software and art (specifically music) can have.
+            Because of this I got a second place prize for a <a href="https://github.com/capalmer1013/Music-Gen">music generation program.</a> at the
+            2015 Hack YSU hackathon. 
+            </p>
+            <p>
+            More recently I was on a team that won the technological acheivement award at the Pittsburgh site for the Global Game Jam in 2017
+            for <a href="http://globalgamejam.org/2017/games/holler-baller-team-bag-grapes">Holler Baller</a>, a game where you physically yell at your computer to propel
+            a ball into the opponents net. 
+            </p>
+            <p>
+            Right now I'm working on a lot of building my own Internet of Things devices for my apartment, mostly to learn the technology involved.
+            And the ongoing project that will never be complete is to make a completely automated band that generates its own music and promotional tweets and artwork.
+            </p>
+        </div>
+        <hr>
+        <div class="pure-u-1 pure-u-md-1" id="resume">
+            <h2>Resume</h2>
+            <h3>Education</h3>
+                <p>
+                    <b>Youngstown State University</b> - Younstown, OH - December 2015
+                        <ul>
+                            <li>BSAS in Computer Information Systems Fall 2015</li>
+                            <li>Minor in Music</li>
+                            <li>Dean's list 2013, 2014, 2015</li>
+                            <li>Senior Project: Developed software to automatically correct eye-tracking data drift, presented methodology at YSU's QUEST student showcase. Published paper on results in peer reviewed journal</li>
+                        </ul>
+                </p>
+            <h3>Experience</h3>
+                <p>
+                <b>Iam Robotics</b> - Pittsburgh, PA - Software Engineer, June 2016 - Present
+                    <ul>
+                        <li>Developing Software for:</li>
+                            <ul>
+                                <li>logging robot activity to be used in data mining</li>
+                                <li>user interface for validating robot accuracy</li>
+                                <li>development tools</li>
+                                <li>low level hardware drivers</li>
+                                <li>Autonomy software to interface with hardware.</li>
+                            </ul>
+                        <li>Using code coverage, profiling, and cyclomatic complexity tools for testing and debugging real time, distributed systems</li>
+                    </ul>
+                Youngstown State University - Youngstown, OH - Web Programmer Internship, 2014 - 2015
+                    <ul>
+                        <li>Developed and updated web applications for the YSU website using PHP, HTML, CSS, JavaScript, JQuery, AngularJS, and Laravel</li>
+                        <li>Communicated project goals and implementation details with other developers and management.</li>
+
+                    </ul>
+                Younstown State University - Youngstown, OH - Research Assistant, 2012 - 2015
+                    <ul>
+                        <li>Conducted literature reviews, collected and analyzed research data, and developed applications using Visual Basic Applications.</li>
+                        <li>Presented project outline and goals to management at St. Elizabeth Health Center in order to obtain industry professionals as research</li>
+
+                    </ul>
+                </p>
+            <h3>Project Highlights</h3>
+                <a href="https://github.com/capalmer1013/Music-Gen">Music-Gen</a>
+                    <ul>
+                        <li>Artificial Neural Network application to 'learn' music from examples and generate new music</li>
+                        <li>Implemented in Python using music21 library for xml parsing</li>
+                        <li>Written at HackYSU, won 2nd place</li>
+                    </ul>
+                Publication - <a href="http://dl.acm.org/citation.cfm?id=2857544">Towards automating fixation correction for source code</a> - ETRA 2016
+                    <ul>
+                        <li>Developed an algorithm to automate eye tracking error correction.</li>
+                        <li>Presented findings at 2016 conference.</li>
+                    </ul>
+                Mahoning Valley Materials Exchange Web Application – ysu.edu
+                    <ul>
+                        <li>Web app for local businesses to search and request available materials</li>
+                        <li>Implemented using Laravel PHP framework, JQuery, AngularJS, Javascript, PHP, and HTML</li>
+                    </ul>
+                Stem Leadership Society Application Form – ysu.edu
+                    <ul>
+                        <li>Updated previous form and database relations in order for application data to be more scalable</li>
+                    </ul>
+                Eye-Tracking Data Correction Algorithm
+                    <ul>
+                        <li>Developed algorithm to predict occurrences of drift in eye tracking data and perform appropriate corrections</li>
+                        <li>Implemented in Python using SciPy stack particularly NumPy</li>
+                    </ul>
+                Eye-Tracking Manual Correction Application
+                    <ul>
+                        <li>Created an application to open eye-tracking stimuli files and eye-tracking scanpath data files and make manual adjustments visually</li>
+                        <li>Used VB.NET to parse data files and display scan path data overlayed on eye-tracking stimuli while making corrections</li>
+                    </ul>
+            <h3>Activities</h3>
+            <ul>
+                <li>YSU Software Engineering Research and Empirical Studies Lab (SERESL) - 2015</li>
+                <li>YSU Student ACM – Vice-President (Association for Computing Machinery) - 2015</li>
+                <li>Tutoring for CSIS programming courses - 2013 - 2015</li>
+                <li>Hackathons: (Kent Hack Enough – 2014, 2015, 2016(mentor)) (Hack YSU - 2015, 2016)</li>
+            </ul>
+        </div>
+        </div>
+        <div class="pure-u-1 pure-u-md-1"></div>
     </div>
 </div>
 
