@@ -115,9 +115,9 @@ ul li{
 }
 #innerContent{
     background:#eee; 
-    border-radius: 100px;
+    border-radius: 50px;
     margin:0 auto;
-    padding:2em;
+    padding:2.5em;
 }
 h2{
     font-family: headerFont;
@@ -127,18 +127,23 @@ h2{
     text-shadow: -3px 3px 3px #3a2584;
     -webkit-text-stroke: 1px rgba(0, 0, 0, 0.2);
     text-shadow: -10px 0 rgba(0, 255, 255, 0.4), 10px 0 rgba(255, 0, 255, 0.4);
+    text-align:center;
 }
 h3{
     margin-top:0.5em;
     font-family:headerFont;
     font-size:2em;
 }
-h4{
-
-}
 
 p{
     color:#333;
     margin-bottom: 0.5em;
     margin-top:1.0em;
+}
+a{
+    text-decoration: none;
+    color:#3a2584;
+}
+a:visited{
+    color:#9e2bac;
 }
