@@ -52,17 +52,17 @@ ul li{
 }
 .banner {
     background: transparent url("background.jpg") 0 0 no-repeat fixed;
-    background-attachment: fixed;
-    background-position: center;
+    /*
+    background-attachment: fixed;*/
+    background-position-x: center;
+    
     background-repeat: no-repeat;
-    background-size: cover;
+    /*background-size: cover;*/
     text-align: center;
     /*filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='background.jpg', sizingMethod='scale');*/
 
     height: 60em;
-    width: 100%;
     margin-bottom: 3em;
-    display: table;
 }
 .container {
     padding: 4em;
